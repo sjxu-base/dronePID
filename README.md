@@ -2,7 +2,7 @@
 
 ## 项目描述
 
-在学习 PID 流程中，构建简化条件下的一个 PID demo 仿真程序。
+在学习 PID 流程中，构建简化条件下的一个 PID 仿真程序。
 
 使用两层 PID 控制器，构建支持自动拟合位置和姿态的四旋翼飞控。
 
@@ -36,18 +36,18 @@
 
 使用**模式1**模拟一个指定场景下，四悬翼电机输出曲线：
 
-![quadcopter_in](quadcopter_in.png)
+![quadcopter_in](asset/img/quadcopter_in.png)
 
 电机输出动力曲线绘图：
 
-![quadcopter_out](quadcopter_out.png)
+![quadcopter_out](asset/img/quadcopter_out.png)
 
 ### B. 原始 PID 控制器仿真
 
 通过**模式2**直接构建一个 PID 进行测试：
 
-![PID_in](PID_in.png)
+![PID_in](asset/img/PID_in.png)
 
 对应参数下 PID 拟合流程：
 
-![PID_in](PID_response.png)
+![PID_in](asset/img/PID_response.png)
